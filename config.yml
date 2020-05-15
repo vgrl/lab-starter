@@ -23,37 +23,37 @@ before:
 # Create one step for each action that a learner will complete
 
 steps:
-# Step 1: INTERNAL COMMENT DESCRIBING STEP 
-- title: # the title of the step, shown to the learner in the course progress page
-  description: # a description of the step, shown to the learner in the course progress page
+# Step 1: Create a task list 
+- title: # Create a task list
+  description: # 1a description of the step, shown to the learner in the course progress page
   event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
   actions: # a list of the actions that will occur when the step is triggered by an event
   - type: # the type of action, full list at https://lab.github.com/docs/actions
 
-# Step 2: INTERNAL COMMENT FOR STEP 2
-# - title: # the title of the step, shown to the learner in the course progress page
-#  description: # a description of the step, shown to the learner in the course progress page
+# Step 2: Turn on GitHub Pages
+# - title: # Turn on GitHub Pages
+#  description: # 2a description of the step, shown to the learner in the course progress page
 #  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
-# Step 3: INTERNAL COMMENT FOR STEP 3
-# - title: # the title of the step, shown to the learner in the course progress page
-#  description: # a description of the step, shown to the learner in the course progress page
+# Step 3: Add headers
+# - title: # Add headers
+#  description: # 3a description of the step, shown to the learner in the course progress page
 #  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
-# Step 4: INTERNAL COMMENT FOR STEP 4
-# - title: # the title of the step, shown to the learner in the course progress page
-#  description: # a description of the step, shown to the learner in the course progress page
+# Step 4: Merge your headers
+# - title: # Merge your headers
+#  description: # 4a description of the step, shown to the learner in the course progress page
 #  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
-# Step 5: INTERNAL COMMENT FOR STEP 5
-# - title: # the title of the step, shown to the learner in the course progress page
-#  description: # a description of the step, shown to the learner in the course progress page
+# Step 5: 5EDIT HERE - INTERNAL COMMENT FOR STEP 5
+# - title: # 5the title of the step, shown to the learner in the course progress page
+#  description: # 5a description of the step, shown to the learner in the course progress page
 #  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
